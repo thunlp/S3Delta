@@ -1,0 +1,34 @@
+[
+    {
+        "SelfAttention.q": {
+            "parallel": {
+                "Lora": {"lora_r":2}
+            }
+        },
+        "SelfAttention.k": {
+            "parallel": {
+                "Lora": {"lora_r":2}
+            }
+        },
+        "SelfAttention.v": {
+            "parallel": {
+                "Lora": {"lora_r":2}
+            }
+        },
+        "SelfAttention.o": {
+            "parallel": {
+                "Lora": {"lora_r":2}
+            }
+        },
+        "DenseReluDense.wi": {
+            "parallel": {
+                "Lora": {"lora_r":2}
+            }
+        },
+        "DenseReluDense.wo": {
+            "parallel": {
+                "Lora": {"lora_r":2}
+            }
+        }
+    }
+]

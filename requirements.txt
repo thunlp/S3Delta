@@ -1,0 +1,14 @@
+# torch #refer to https://pytorch.org/get-started/locally/, and choose the version suitable for your server
+datasets==2.0.0
+transformers==4.10.0
+sentencepiece==0.1.96
+tqdm==4.62.2
+# openprompt # some code has been changed
+matplotlib
+loralib
+decorator
+rich
+pandas
+scipy
+sklearn
+nltk

@@ -1,0 +1,14 @@
+[
+    {
+        "layer_norm":{
+            "parallel":{
+                "LNFit":{}
+            }
+        },
+        "final_layer_norm":{
+            "parallel":{
+                "LNFit":{}
+            }
+        }
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "SelfAttention.q": {
+            "parallel": {
+                "Lora": {}
+            }
+        },
+        "SelfAttention.v": {
+            "parallel": {
+                "Lora": {}
+            }
+        }
+    }
+]

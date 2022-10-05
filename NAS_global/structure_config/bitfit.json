@@ -1,0 +1,49 @@
+[
+    {
+        "SelfAttention.q": {
+            "sequential": {
+                "BitFitParallel": {}
+            }
+        },
+        "SelfAttention.k": {
+            "sequential": {
+                "BitFitParallel": {}
+            }
+        },
+        "SelfAttention.v": {
+            "sequential": {
+                "BitFitParallel": {}
+            }
+        },
+        "SelfAttention.o": {
+            "sequential": {
+                "BitFitParallel": {}
+            }
+        },
+        "DenseReluDense.wi": {
+            "sequential": {
+                "BitFitParallel": {}
+            }
+        },
+        "DenseReluDense.wo": {
+            "sequential": {
+                "BitFitParallel": {}
+            }
+        },
+        "layer_norm":{
+            "sequential":{
+                "BitFitParallel": {}
+            }
+        },
+        "final_layer_norm":{
+            "sequential":{
+                "BitFitParallel": {}
+            }
+        },
+        "lm_head":{
+            "sequential":{
+                "BitFitParallel": {}
+            }
+        }
+    }
+]

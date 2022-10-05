@@ -1,0 +1,81 @@
+[
+    {
+        "SelfAttention.q": {
+            "parallel": {
+                "Lora": {"lora_r":1}
+            },
+            "sequential":{
+                "BitFitParallel": {}
+            }
+        },
+        "SelfAttention.k": {
+            "parallel": {
+                "Lora": {"lora_r":1}   
+            },
+            "sequential":{
+                "BitFitParallel": {}
+            }
+        },
+        "SelfAttention.v": {
+            "parallel": {
+                "Lora": {"lora_r":1}
+            },
+            "sequential":{
+                "BitFitParallel": {}
+            }
+        },
+        "SelfAttention.o": {
+            "parallel": {
+                "Lora": {"lora_r":1}
+            },
+            "sequential":{
+                "BitFitParallel": {}
+            }
+        },
+        "layer_norm":{
+            "parallel":{
+                "LNFit":{}
+            },
+            "sequential":{
+                "BitFitParallel": {}
+            }
+        },
+        "final_layer_norm":{
+            "parallel":{
+                "LNFit":{}
+            },
+            "sequential":{
+                "BitFitParallel": {}
+            }
+        },
+        "DenseReluDense.wi": {
+            "parallel": {
+                "Lora": {"lora_r":1}
+            },
+            "sequential": {
+                "BitFitParallel": {}
+            }
+        },
+        "DenseReluDense.wo": {
+            "parallel": {
+                "Lora": {"lora_r":1}
+            },
+            "sequential": {
+                "BitFitParallel": {}
+            }
+        }
+    },
+    {
+        "DenseReluDense": {
+            "sequential": {
+                "LowRankAdapter": {}
+            }
+        },
+        "SelfAttention": {
+            "sequential": {
+                "LowRankAdapter": {}
+            }
+        }
+        
+    }
+]

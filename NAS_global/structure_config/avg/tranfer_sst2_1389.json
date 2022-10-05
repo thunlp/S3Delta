@@ -1,0 +1,312 @@
+[
+    {
+        "encoder.block.21.layer.0.SelfAttention.q": {
+            "parallel": {
+                "Lora": {
+                    "lora_r": 1
+                }
+            }
+        },
+        "encoder.block.21.layer.0.layer_norm": {
+            "parallel": {
+                "LNFit": {}
+            },
+            "sequential": {
+                "BitFitParallel": {}
+            }
+        },
+        "encoder.block.22.layer.0.SelfAttention.q": {
+            "parallel": {
+                "Lora": {
+                    "lora_r": 1
+                }
+            }
+        },
+        "encoder.block.22.layer.0.layer_norm": {
+            "sequential": {
+                "BitFitParallel": {}
+            }
+        },
+        "encoder.block.23.layer.0.SelfAttention.q": {
+            "parallel": {
+                "Lora": {
+                    "lora_r": 1
+                }
+            }
+        },
+        "encoder.block.23.layer.0.layer_norm": {
+            "parallel": {
+                "LNFit": {}
+            },
+            "sequential": {
+                "BitFitParallel": {}
+            }
+        },
+        "encoder.final_layer_norm": {
+            "parallel": {
+                "LNFit": {}
+            },
+            "sequential": {
+                "BitFitParallel": {}
+            }
+        },
+        "decoder.block.0.layer.0.SelfAttention.q": {
+            "parallel": {
+                "Lora": {
+                    "lora_r": 1
+                }
+            }
+        },
+        "decoder.block.3.layer.1.layer_norm": {
+            "sequential": {
+                "BitFitParallel": {}
+            }
+        },
+        "decoder.block.4.layer.1.layer_norm": {
+            "sequential": {
+                "BitFitParallel": {}
+            }
+        },
+        "decoder.block.6.layer.1.layer_norm": {
+            "sequential": {
+                "BitFitParallel": {}
+            }
+        },
+        "decoder.block.8.layer.0.layer_norm": {
+            "sequential": {
+                "BitFitParallel": {}
+            }
+        },
+        "decoder.block.8.layer.1.layer_norm": {
+            "sequential": {
+                "BitFitParallel": {}
+            }
+        },
+        "decoder.block.9.layer.1.layer_norm": {
+            "sequential": {
+                "BitFitParallel": {}
+            }
+        },
+        "decoder.block.10.layer.0.layer_norm": {
+            "sequential": {
+                "BitFitParallel": {}
+            }
+        },
+        "decoder.block.10.layer.1.layer_norm": {
+            "sequential": {
+                "BitFitParallel": {}
+            }
+        },
+        "decoder.block.11.layer.0.layer_norm": {
+            "sequential": {
+                "BitFitParallel": {}
+            }
+        },
+        "decoder.block.11.layer.1.layer_norm": {
+            "sequential": {
+                "BitFitParallel": {}
+            }
+        },
+        "decoder.block.12.layer.0.layer_norm": {
+            "sequential": {
+                "BitFitParallel": {}
+            }
+        },
+        "decoder.block.12.layer.1.layer_norm": {
+            "sequential": {
+                "BitFitParallel": {}
+            }
+        },
+        "decoder.block.13.layer.0.layer_norm": {
+            "sequential": {
+                "BitFitParallel": {}
+            }
+        },
+        "decoder.block.13.layer.1.layer_norm": {
+            "sequential": {
+                "BitFitParallel": {}
+            }
+        },
+        "decoder.block.14.layer.0.layer_norm": {
+            "sequential": {
+                "BitFitParallel": {}
+            }
+        },
+        "decoder.block.14.layer.1.layer_norm": {
+            "sequential": {
+                "BitFitParallel": {}
+            }
+        },
+        "decoder.block.15.layer.1.layer_norm": {
+            "sequential": {
+                "BitFitParallel": {}
+            }
+        },
+        "decoder.block.16.layer.0.layer_norm": {
+            "sequential": {
+                "BitFitParallel": {}
+            }
+        },
+        "decoder.block.16.layer.1.layer_norm": {
+            "sequential": {
+                "BitFitParallel": {}
+            }
+        },
+        "decoder.block.17.layer.0.SelfAttention.q": {
+            "parallel": {
+                "Lora": {
+                    "lora_r": 1
+                }
+            }
+        },
+        "decoder.block.17.layer.0.layer_norm": {
+            "sequential": {
+                "BitFitParallel": {}
+            }
+        },
+        "decoder.block.17.layer.1.layer_norm": {
+            "sequential": {
+                "BitFitParallel": {}
+            }
+        },
+        "decoder.block.17.layer.2.DenseReluDense.wi": {
+            "parallel": {
+                "Lora": {
+                    "lora_r": 1
+                }
+            }
+        },
+        "decoder.block.18.layer.0.layer_norm": {
+            "sequential": {
+                "BitFitParallel": {}
+            }
+        },
+        "decoder.block.18.layer.1.layer_norm": {
+            "sequential": {
+                "BitFitParallel": {}
+            }
+        },
+        "decoder.block.18.layer.2.DenseReluDense.wi": {
+            "parallel": {
+                "Lora": {
+                    "lora_r": 1
+                }
+            }
+        },
+        "decoder.block.19.layer.0.layer_norm": {
+            "sequential": {
+                "BitFitParallel": {}
+            }
+        },
+        "decoder.block.19.layer.1.layer_norm": {
+            "sequential": {
+                "BitFitParallel": {}
+            }
+        },
+        "decoder.block.19.layer.2.DenseReluDense.wi": {
+            "parallel": {
+                "Lora": {
+                    "lora_r": 1
+                }
+            }
+        },
+        "decoder.block.20.layer.0.layer_norm": {
+            "sequential": {
+                "BitFitParallel": {}
+            }
+        },
+        "decoder.block.20.layer.1.layer_norm": {
+            "sequential": {
+                "BitFitParallel": {}
+            }
+        },
+        "decoder.block.20.layer.2.DenseReluDense.wi": {
+            "parallel": {
+                "Lora": {
+                    "lora_r": 1
+                }
+            }
+        },
+        "decoder.block.21.layer.0.layer_norm": {
+            "sequential": {
+                "BitFitParallel": {}
+            }
+        },
+        "decoder.block.21.layer.1.layer_norm": {
+            "sequential": {
+                "BitFitParallel": {}
+            }
+        },
+        "decoder.block.21.layer.2.DenseReluDense.wi": {
+            "parallel": {
+                "Lora": {
+                    "lora_r": 1
+                }
+            }
+        },
+        "decoder.block.22.layer.0.layer_norm": {
+            "sequential": {
+                "BitFitParallel": {}
+            }
+        },
+        "decoder.block.22.layer.1.layer_norm": {
+            "sequential": {
+                "BitFitParallel": {}
+            }
+        },
+        "decoder.block.22.layer.2.DenseReluDense.wi": {
+            "parallel": {
+                "Lora": {
+                    "lora_r": 1
+                }
+            }
+        },
+        "decoder.block.22.layer.2.DenseReluDense.wo": {
+            "parallel": {
+                "Lora": {
+                    "lora_r": 1
+                }
+            }
+        },
+        "decoder.block.23.layer.0.layer_norm": {
+            "sequential": {
+                "BitFitParallel": {}
+            }
+        },
+        "decoder.block.23.layer.1.layer_norm": {
+            "sequential": {
+                "BitFitParallel": {}
+            }
+        },
+        "decoder.final_layer_norm": {
+            "parallel": {
+                "LNFit": {}
+            },
+            "sequential": {
+                "BitFitParallel": {}
+            }
+        }
+    },
+    {
+        "encoder.block.22.layer.0.SelfAttention": {
+            "sequential": {
+                "LowRankAdapter": {}
+            }
+        },
+        "decoder.block.3.layer.2.DenseReluDense": {
+            "sequential": {
+                "LowRankAdapter": {}
+            }
+        },
+        "decoder.block.4.layer.2.DenseReluDense": {
+            "sequential": {
+                "LowRankAdapter": {}
+            }
+        },
+        "decoder.block.13.layer.0.SelfAttention": {
+            "sequential": {
+                "LowRankAdapter": {}
+            }
+        }
+    }
+]

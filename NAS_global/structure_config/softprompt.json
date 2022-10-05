@@ -1,0 +1,9 @@
+[
+    {
+        "encoder": {
+            "sequential": {
+                "SoftPrompt": {}
+            }
+        }
+    }
+]

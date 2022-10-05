@@ -1,0 +1,14 @@
+[
+    {
+        "DenseReluDense": {
+            "sequential": {
+                "LowRankAdapter": {}
+            }
+        },
+        "SelfAttention": {
+            "sequential": {
+                "LowRankAdapter": {}
+            }
+        }
+    }
+]
