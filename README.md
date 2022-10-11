@@ -1,4 +1,4 @@
-# Sparse Structure Search for Parameter-Efficient Tuning
+# Sparse Structure Search for Delta Tuning
 
 ## Dependencies
 
