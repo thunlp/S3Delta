@@ -1,5 +1,5 @@
 # Sparse Structure Search for Delta Tuning
-
+This is the codes for our NeurIPS 2022 paper Sparse Structure Search for Delta Tuning. If you have any question about the code, please raise issues or contact zhen-zha19 AT mails.tsinghua.edu.cn. If you have any questions about the paper, please contact shengdinghu AT gmail.com
 
 ## Dependencies
 
@@ -89,3 +89,16 @@ save_name = f'example_superglue-cb_heatmap.pdf'
 ## Reference
 
 Official implementation of [DARTS](https://github.com/quark0/darts)
+
+## Citation
+
+```
+@inproceedings{
+hu2022sparse,
+title={Sparse Structure Search for Delta Tuning},
+author={Shengding Hu and Zhen Zhang and Ning Ding and Yadao Wang and Yasheng Wang and Zhiyuan Liu and Maosong Sun},
+booktitle={Thirty-Sixth Conference on Neural Information Processing Systems},
+year={2022},
+url={https://openreview.net/forum?id=oOte_397Q4P}
+}
+```
